@@ -1,3 +1,14 @@
 .dropdown-toggle, .dropdown-item {
     cursor: pointer;
 }
+.custom-input {
+    background-color: #f5f5f5;
+    border: 1px solid #686dc3;
+    border-radius: 5px;
+    padding: 10px;
+    caret-color: #e83283;
+  }
+
+  .custom-input::placeholder {
+    color: #333;
+  }
